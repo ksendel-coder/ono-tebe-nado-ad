@@ -38,7 +38,7 @@
     background-image: url('../images/cover.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 108px;
+    margin-bottom: 180px;
     position: relative;
 }
 
@@ -50,7 +50,6 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
 }
-
 
 .cover__title {
     width: 1000px;
@@ -64,29 +63,28 @@
     flex-direction: column;
     align-items: flex-start;
     letter-spacing: 30px;
-    position: relative; 
+    position: relative;
 }
 
 .aligned-text {
-    align-self: flex-start; 
+    align-self: flex-start;
     width: 286px;
     height: 115px;
 }
 
 .aligned-text_center {
-    align-self: center; 
+    align-self: center;
     margin-top: 20px;
     width: 339px;
     height: 115px;
 }
 
 .aligned-text_right {
-    align-self: flex-end; 
+    align-self: flex-end;
     width: 387px;
     margin-top: 20px;
     height: 115px;
 }
-
 
 .cover__description {
     display: flex;
@@ -118,7 +116,7 @@
 }
 
 .bet-button:hover {
-    opacity: 0.5; 
+    opacity: 0.5;
 }
 
 .lots {
@@ -142,7 +140,6 @@
     gap: 25px;
 }
 
-
 .lots__card-list-item {
     width: 334px;
     min-height: 596px;
@@ -156,11 +153,10 @@
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: space-between;
     position: relative;
     height: 100%;
     padding: 50px 40px;
-    box-sizing: border-box;
 }
 
 .card_type_film {
@@ -168,7 +164,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative; 
 }
 
 .card__title {
@@ -194,7 +189,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative;
 }
 
 .card_type_picture {
@@ -202,9 +196,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative;
 }
-
 
 .lots__look-more-link {
     display: inline-block;
@@ -236,7 +228,6 @@
     margin-left: 24px;
     display: grid;
     grid-template-columns: 334px 1fr;
-    position: relative;
     gap: 25px;
 }
 
