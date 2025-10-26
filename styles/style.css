@@ -255,7 +255,6 @@
     color: #000000;
     font-size: 40px;
     text-transform: uppercase;
-    padding-top: 3px;
     margin-bottom: 100px;
     font-weight: bold;
     line-height: 100%;
@@ -275,8 +274,8 @@
 .about__column:last-child {
     margin-top: 136px;
     display: grid;
-    grid-template-rows: auto 1fr; /* контент + пустое пространство */
-    align-content: start; /* прижать к верху */
+    grid-template-rows: auto 1fr;
+    align-content: start; 
     height: 449px;
 }
 
