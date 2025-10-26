@@ -255,7 +255,7 @@
     color: #000000;
     font-size: 40px;
     text-transform: uppercase;
-    padding-top: 133px;
+    padding-top: 136px;
     margin-bottom: 100px;
     font-weight: bold;
     line-height: 100%;
@@ -270,7 +270,7 @@
 }
 
 .about__text:first-of-type {
-    width: 668px;
+    margin-right: 5px;
 }
 
 .about__text:last-of-type {
