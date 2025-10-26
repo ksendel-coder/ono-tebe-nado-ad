@@ -275,7 +275,7 @@
     margin-top: 136px;
     display: grid;
     grid-template-rows: auto 1fr;
-    align-content: start; 
+    align-content: start;
     height: 449px;
 }
 
@@ -293,10 +293,6 @@
     align-items: center;
     text-underline-offset: 4px;
     height: 98px;
-}
-
-.footer_adress {
-    padding-top: 2px;
     line-height: 24.3px;
 }
 
