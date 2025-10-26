@@ -11,6 +11,7 @@
     list-style: circle;
     margin-left: 50px;
     text-underline-offset: 4px;
+    line-height: 100%;
 }
 
 .header__links-list-item_no-bullit {
@@ -32,6 +33,11 @@
 
 .contacts a {
     text-underline-offset: 4px;
+}
+
+.header_addres {
+    line-height: 24.3px;
+    padding-top: 2px;
 }
 
 .cover {
@@ -64,6 +70,7 @@
     align-items: flex-start;
     letter-spacing: 30px;
     position: relative;
+    line-height: 114.99999999999999%;
 }
 
 .aligned-text {
@@ -101,6 +108,7 @@
 
 .cover__description-text {
     word-spacing: 22px;
+    line-height: 28px;
 }
 
 .bet-button {
@@ -113,6 +121,8 @@
     align-items: center;
     padding-top: 12px;
     padding-bottom: 11px;
+    font-weight: 500;
+    line-height: 100%;
 }
 
 .bet-button:hover {
@@ -131,6 +141,7 @@
     text-transform: uppercase;
     padding-left: 40px;
     padding-bottom: 27px;
+    line-height: 100%;
 }
 
 .lots__card-list {
@@ -174,12 +185,13 @@
     text-decoration: underline;
     margin: 0;
     position: relative;
+    line-height: 120%;
 }
 
 .card__text {
     color: #FFFFFF;
     font-size: 20px;
-    font-weight: 400;
+    line-height: 120%;
     margin: 0;
     position: relative;
 }
@@ -204,6 +216,7 @@
     font-size: 20px;
     padding-left: 40px;
     padding-top: 30px;
+    line-height: 100%;
 }
 
 .background-about__logo {
@@ -243,6 +256,8 @@
     text-transform: uppercase;
     padding-top: 136px;
     margin-bottom: 100px;
+    font-weight: bold;
+    line-height: 100%;
 }
 
 .about__text {
@@ -278,12 +293,18 @@
     padding-bottom: 82px;
 }
 
+.footer_adress {
+    padding-top: 2px;
+    line-height: 24.3px;
+}
+
 .footer__menu-list {
     width: 163.9px;
     list-style: none;
     text-underline-offset: 4px;
     text-align: center;
     padding-bottom: 115px;
+    line-height: 100%;
 }
 
 .footer__menu-link_active {
